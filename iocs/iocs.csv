@@ -1,0 +1,18 @@
+type,value,description,campaign,report
+sha256,a78c020b15f9950b95d5813baa198612e19ddfa6c47c22b6a379c9d09e836805,Stage 1 Go loader (x64),lumma-go,Lumma-GO-Analysis
+sha256,7c9d4d29a0b6a623f7ae6495d75d17fb9b17c78d67f9ec9108a62f6bf39546df,Stage 2 Lumma payload (x86),lumma-go,Lumma-GO-Analysis
+md5,5ed61e9e0c26e04d5c1f0dd7e41626f9,Stage 2 Lumma payload (x86),lumma-go,Lumma-GO-Analysis
+domain,convuey.cyou,C2 slot 0,lumma-go,Lumma-GO-Analysis
+url,bendavo.su/asdsa,C2 slot 1,lumma-go,Lumma-GO-Analysis
+url,conxmsw.su/vcsf,C2 slot 2,lumma-go,Lumma-GO-Analysis
+url,narroxp.su/rewd,C2 slot 3,lumma-go,Lumma-GO-Analysis
+url,squeaue.su/qwe,C2 slot 4,lumma-go,Lumma-GO-Analysis
+url,ozonelf.su/asd,C2 slot 5,lumma-go,Lumma-GO-Analysis
+url,exposqw.su/casc,C2 slot 6,lumma-go,Lumma-GO-Analysis
+url,squatje.su/asdasd,C2 slot 7,lumma-go,Lumma-GO-Analysis
+url,vicareu.su/bcdf,C2 slot 8,lumma-go,Lumma-GO-Analysis
+url,https://steamcommunity.com/profiles/76561199880317058,Dead drop (C2 is the ROT15 display name),lumma-go,Lumma-GO-Analysis
+uid,dc8e5f3081889c0e241b9a0281076771effc3817c5b1cd4ddb43b54f,Campaign uid sent in every request,lumma-go,Lumma-GO-Analysis
+user_agent,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.5414.120 Safari/537.36",C2 User-Agent,lumma-go,Lumma-GO-Analysis
+http_header,Cookie: __cf_mw_byp=,C2 cookie name,lumma-go,Lumma-GO-Analysis
+file_path,C:\Windows\SysWOW64\explorer.exe,Hollowed process started suspended by the loader,lumma-go,Lumma-GO-Analysis
