@@ -4,6 +4,8 @@ sha256,7c9d4d29a0b6a623f7ae6495d75d17fb9b17c78d67f9ec9108a62f6bf39546df,Lumma pa
 md5,5ed61e9e0c26e04d5c1f0dd7e41626f9,Lumma payload (x86),go
 sha256,8f5e4c1fffb23cf75e702fd241f3ae5937ac5cdc495ce1b50659b2b1305b89ff,Lure archive AIO Checker 8.10.10.rar,aio
 sha256,70ed41327068060f68a7272cc705ba1eecfa11430e308023eb82d7964f42ed1d,Outer crypter AIO Checker 8.10.10.exe (x64),aio
+md5,75aee7f868d71cc6f8029aef153092d2,Outer crypter AIO Checker 8.10.10.exe (x64),aio
+sha256,8df26b1f550c80646f01d25b8aafcabb1342bbb2be1cd335cdb8d254be8c4090,README.txt in the lure archive,aio
 sha256,eed45ed3b3f866d87a00cbebfbf500ee3da5b0285097ea726ec896968f0e1203,Dropper (x86),aio
 sha256,ed6731c5d5de872e56816984faf9bb056e4d3e3282862f2f626d2df75b38d6da,.NET crypto clipper (Runtime64.exe),aio
 sha256,1321e9fa6893b6fd3137f01b77b54eee6bd39144813d06e6f92bf8c58f3a3008,Second crypter (x64),aio

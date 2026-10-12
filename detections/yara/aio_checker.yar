@@ -5,7 +5,8 @@ rule AIOChecker_Crypter_x64_jss
     meta:
         description = "x64 crypter from the AIO Checker chain: two .jss sections, mobsync.exe version info clone, RC4 key built as stack immediate"
         author      = "Artful Dodger"
-        date        = "2026-10-07"
+        date        = "2026-10-11"
+        status      = "TESTED"
         hash1       = "70ed41327068060f68a7272cc705ba1eecfa11430e308023eb82d7964f42ed1d"
         hash2       = "1321e9fa6893b6fd3137f01b77b54eee6bd39144813d06e6f92bf8c58f3a3008"
 
@@ -32,7 +33,8 @@ rule AIOChecker_ShinobuClipper_variant
     meta:
         description = ".NET crypto clipper built from a 'ShinobuClipper-master' project (Runtime64.exe, Startup\\svhost.exe)"
         author      = "Artful Dodger"
-        date        = "2026-10-07"
+        date        = "2026-10-11"
+        status      = "TESTED"
         hash1       = "ed6731c5d5de872e56816984faf9bb056e4d3e3282862f2f626d2df75b38d6da"
 
     strings:
@@ -57,7 +59,8 @@ rule AIOChecker_Lumma_build_37d7c3a0
     meta:
         description = "Lumma Stealer payload from the AIO Checker chain (this build only): plaintext uid and ChaCha20 key+nonce of the C2 table"
         author      = "Artful Dodger"
-        date        = "2026-10-07"
+        date        = "2026-10-11"
+        status      = "TESTED"
         hash1       = "7584e49b7ad4e44f405dc64a391abe2f619253b2396d357b9ed7c4ffc867ada9"
 
     strings:
