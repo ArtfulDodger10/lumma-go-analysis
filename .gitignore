@@ -1,8 +1,12 @@
-# samples never go in the repo
+# samples and dumps never go in the repo
 samples/
+stages/
 *.exe
 *.dll
 *.bin
+*.dmp
+*.vmem
+*.raw
 *.zip
 *.rar
 *.7z
@@ -14,4 +18,4 @@ __pycache__/
 
 # local output
 results*.jsonl
-candidates*.csv
+results*.csv

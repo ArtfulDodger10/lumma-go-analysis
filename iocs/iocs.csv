@@ -1,18 +1,53 @@
-type,value,description,campaign,report
-sha256,a78c020b15f9950b95d5813baa198612e19ddfa6c47c22b6a379c9d09e836805,Stage 1 Go loader (x64),lumma-go,Lumma-GO-Analysis
-sha256,7c9d4d29a0b6a623f7ae6495d75d17fb9b17c78d67f9ec9108a62f6bf39546df,Stage 2 Lumma payload (x86),lumma-go,Lumma-GO-Analysis
-md5,5ed61e9e0c26e04d5c1f0dd7e41626f9,Stage 2 Lumma payload (x86),lumma-go,Lumma-GO-Analysis
-domain,convuey.cyou,C2 slot 0,lumma-go,Lumma-GO-Analysis
-url,bendavo.su/asdsa,C2 slot 1,lumma-go,Lumma-GO-Analysis
-url,conxmsw.su/vcsf,C2 slot 2,lumma-go,Lumma-GO-Analysis
-url,narroxp.su/rewd,C2 slot 3,lumma-go,Lumma-GO-Analysis
-url,squeaue.su/qwe,C2 slot 4,lumma-go,Lumma-GO-Analysis
-url,ozonelf.su/asd,C2 slot 5,lumma-go,Lumma-GO-Analysis
-url,exposqw.su/casc,C2 slot 6,lumma-go,Lumma-GO-Analysis
-url,squatje.su/asdasd,C2 slot 7,lumma-go,Lumma-GO-Analysis
-url,vicareu.su/bcdf,C2 slot 8,lumma-go,Lumma-GO-Analysis
-url,https://steamcommunity.com/profiles/76561199880317058,Dead drop (C2 is the ROT15 display name),lumma-go,Lumma-GO-Analysis
-uid,dc8e5f3081889c0e241b9a0281076771effc3817c5b1cd4ddb43b54f,Campaign uid sent in every request,lumma-go,Lumma-GO-Analysis
-user_agent,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.5414.120 Safari/537.36",C2 User-Agent,lumma-go,Lumma-GO-Analysis
-http_header,Cookie: __cf_mw_byp=,C2 cookie name,lumma-go,Lumma-GO-Analysis
-file_path,C:\Windows\SysWOW64\explorer.exe,Hollowed process started suspended by the loader,lumma-go,Lumma-GO-Analysis
+type,value,description,chain
+sha256,a78c020b15f9950b95d5813baa198612e19ddfa6c47c22b6a379c9d09e836805,Go loader (x64),go
+sha256,7c9d4d29a0b6a623f7ae6495d75d17fb9b17c78d67f9ec9108a62f6bf39546df,Lumma payload (x86),go
+md5,5ed61e9e0c26e04d5c1f0dd7e41626f9,Lumma payload (x86),go
+sha256,8f5e4c1fffb23cf75e702fd241f3ae5937ac5cdc495ce1b50659b2b1305b89ff,Lure archive AIO Checker 8.10.10.rar,aio
+sha256,70ed41327068060f68a7272cc705ba1eecfa11430e308023eb82d7964f42ed1d,Outer crypter AIO Checker 8.10.10.exe (x64),aio
+sha256,eed45ed3b3f866d87a00cbebfbf500ee3da5b0285097ea726ec896968f0e1203,Dropper (x86),aio
+sha256,ed6731c5d5de872e56816984faf9bb056e4d3e3282862f2f626d2df75b38d6da,.NET crypto clipper (Runtime64.exe),aio
+sha256,1321e9fa6893b6fd3137f01b77b54eee6bd39144813d06e6f92bf8c58f3a3008,Second crypter (x64),aio
+sha256,7584e49b7ad4e44f405dc64a391abe2f619253b2396d357b9ed7c4ffc867ada9,Lumma payload (x86),aio
+domain,convuey.cyou,Lumma C2,go
+url,bendavo.su/asdsa,Lumma C2,go
+url,conxmsw.su/vcsf,Lumma C2,go
+url,narroxp.su/rewd,Lumma C2,go
+url,squeaue.su/qwe,Lumma C2,go
+url,ozonelf.su/asd,Lumma C2,go
+url,exposqw.su/casc,Lumma C2,go
+url,squatje.su/asdasd,Lumma C2,go
+url,vicareu.su/bcdf,Lumma C2,go
+url,https://exitiumt.digital/xane,Lumma C2 (contacted in the lab run),aio
+url,https://brandihx.run/lowp,Lumma C2,aio
+url,https://viriatoe.live/laopx,Lumma C2,aio
+url,https://opusculy.top/keaj,Lumma C2,aio
+url,https://civitasu.run/werrp,Lumma C2,aio
+url,https://scriptao.digital/vpep,Lumma C2,aio
+url,https://praetori.live/vepr,Lumma C2,aio
+url,https://disciplipna.top/eqwu,Lumma C2,aio
+url,https://steamcommunity.com/profiles/76561199880317058,Steam dead drop (C2 = ROT15 display name),go
+url,https://steamcommunity.com/profiles/76561199845513035,Steam dead drop (role inferred),aio
+url,https://t.me/hitbase,Link in the lure archive README,aio
+uid,dc8e5f3081889c0e241b9a0281076771effc3817c5b1cd4ddb43b54f,Lumma build ID sent in every request,go
+uid,37d7c3a0bc391b79b770bb89c2e2e1a3,Lumma build ID sent in every request,aio
+user_agent,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.5414.120 Safari/537.36",Lumma C2 User-Agent,go
+user_agent,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",Lumma C2 User-Agent,aio
+http_header,Cookie: __cf_mw_byp=,Lumma C2 cookie name,go
+process,C:\Windows\SysWOW64\explorer.exe,Hollowed by the Go loader (started suspended),go
+process,C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe,Hollowed by both AIO crypters (started with no arguments),aio
+file_path,%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\svhost.exe,Clipper persistence copy,aio
+file_regex,%APPDATA%\[0-9A-Za-z]{10}.exe,Dropper output (clipper and second crypter),aio
+mutex,sodfksdkfalksdasgpkprgasdgrrkgwhrterheegwsdfwef,Clipper mutex (from config),aio
+wallet,1Cs4gSW7qZiZnmUtYAJY6SNNL9RkGvqxk5,Clipper replacement address (btc),aio
+wallet,36XmjPBaivX7XNDcPFUkgdEVpuxVMgsd9w,Clipper replacement address (btc1),aio
+wallet,bc1qnfer7radees05zrns2vqtw7ykmjxluldewtd7w,Clipper replacement address (btc2),aio
+wallet,0x01bA6297Bb9a7E1d02409fa266B6cc0394eBB46d,Clipper replacement address (eth),aio
+wallet,4Af2kkWQNCDEFyk7nxNtGFZ3nNgrfzEZVaVJPxQ5VJ42X9c2Lpzne2QJ1ViCe5vdBK8mMUJa6XS5zKNSUoHM6rz6Bk3zNJQ,Clipper replacement address (xmr),aio
+wallet,rQBgyfhUiZ1rjD5L5r2pMngpDGTYd3ZKYE,Clipper replacement address (xrp),aio
+wallet,TXFaM1RxKK71QL4cpXLtQu4w2ZkzhJHVwk,Clipper replacement address (trx),aio
+wallet,DCU6eByBxk81oykGdQbS51qXHyj8qLdGkA,Clipper replacement address (doge),aio
+wallet,qpppd8hu5epj600jmsdr0sn4tl687whjk50ptgwsch,Clipper replacement address (btccash),aio
+wallet,MGx8Gz8ovhDQg3hqqBwcC83KGh79sNiNzb,Clipper replacement address (ltc1),aio
+wallet,LTRjZtwiSXr6ur88BCo8qBXaEnkscwsu5N,Clipper replacement address (ltc2),aio
+wallet,ltc1q85llmq9ad7kczk7unyzt2tv4jmeztn2mcsfeqw,Clipper replacement address (ltc3),aio
+wallet,upQCkfeHcnPUCe2LLZH1diiupjEBSvHkghG8Q4Ls6h8,Clipper replacement address (sol),aio
